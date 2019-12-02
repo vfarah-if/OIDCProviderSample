@@ -1,0 +1,48 @@
+{
+  "name": "wa-oidc-provider",
+  "version": "1.0.0",
+  "description": "Test the base ideas for OICS Provider to connect into Cognito",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfarah-if/OIDCProviderSample.git"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "authorization",
+    "basic",
+    "certified",
+    "config",
+    "connect",
+    "dynamic",
+    "express",
+    "fapi",
+    "hybrid",
+    "identity",
+    "implicit",
+    "koa",
+    "oauth",
+    "oauth 2.0",
+    "oauth2",
+    "oidc",
+    "openid",
+    "provider",
+    "server"
+  ],
+  "author": "Vincent Farah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfarah-if/OIDCProviderSample/issues"
+  },
+  "homepage": "https://github.com/vfarah-if/OIDCProviderSample#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "oidc-provider": "^6.17.0"
+  }
+}
